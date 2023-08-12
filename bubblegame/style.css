@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  width: 100%;
+  height: 0px;
+  padding-left: 45%;
+  padding-top: 0px;
+}
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(44, 247, 179);
+}
+#plate {
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+#ptop {
+  padding: 0px 20%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(4, 163, 110);
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 25px;
+}
+.box {
+  color: #000;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: rgb(253, 253, 253);
+  border-radius: 5px;
+}
+#pbtm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 7px 25px;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(2, 121, 151);
+}
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgb(3, 80, 54);
+}
